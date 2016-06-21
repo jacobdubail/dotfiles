@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+#export PATH="$PATH";
+export PATH=~/.composer/vendor/bin:$HOME/bin:/usr/local/sbin:/usr/local/share/npm/lib/node_modules/grunt-cli/bin:$PATH
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

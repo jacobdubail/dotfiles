@@ -14,8 +14,7 @@ alias p="cd ~/projects"
 alias dapf="d && cd MissingPieceStudios/Projects/"
 alias vvv="dapf && cd vvv/www"
 alias g="git"
-alias h="history"
-alias j="jobs"
+alias flushdns="sudo discoveryutil mdnsflushcache"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

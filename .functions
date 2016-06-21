@@ -244,3 +244,10 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+
+wp() {
+    DIR=`basename $PWD`
+    ARGS=$*
+    ssh vagrant@192.168.50.4 "cd /srv/www/${DIR} ; wp ${ARGS}"
+}
