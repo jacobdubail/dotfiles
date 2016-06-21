@@ -1,7 +1,6 @@
 [user]
-	[user]
-    name = "Jacob Dubail"
-    #email = "jacob@jacobdubail.com"
+  name = "Jacob Dubail"
+  #email = "jacob@jacobdubail.com"
 
 [alias]
 
